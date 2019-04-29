@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5C80DA6A226FDC6800EB5707 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA69226FDC6800EB5707 /* main.cpp */; };
+		5C80DA75226FDCFE00EB5707 /* University.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA73226FDCFE00EB5707 /* University.cpp */; };
+		5C80DA78226FDD0A00EB5707 /* Building.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA76226FDD0A00EB5707 /* Building.cpp */; };
+		5C80DA7B226FDD1A00EB5707 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA79226FDD1A00EB5707 /* Person.cpp */; };
+		5C80DA7E226FDD3D00EB5707 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA7C226FDD3D00EB5707 /* Student.cpp */; };
+		5C80DA81226FDD5A00EB5707 /* Instructor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA7F226FDD5A00EB5707 /* Instructor.cpp */; };
+		5C80DA85226FDD9E00EB5707 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA83226FDD9E00EB5707 /* Menu.cpp */; };
+		5C80DA88226FDE6700EB5707 /* inputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA87226FDE6700EB5707 /* inputValidation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		5C80DA66226FDC6800EB5707 /* OSU Information System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OSU Information System"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C80DA69226FDC6800EB5707 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C80DA73226FDCFE00EB5707 /* University.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = University.cpp; sourceTree = "<group>"; };
+		5C80DA74226FDCFE00EB5707 /* University.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = University.hpp; sourceTree = "<group>"; };
+		5C80DA76226FDD0A00EB5707 /* Building.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Building.cpp; sourceTree = "<group>"; };
+		5C80DA77226FDD0A00EB5707 /* Building.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Building.hpp; sourceTree = "<group>"; };
+		5C80DA79226FDD1A00EB5707 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		5C80DA7A226FDD1A00EB5707 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		5C80DA7C226FDD3D00EB5707 /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		5C80DA7D226FDD3D00EB5707 /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		5C80DA7F226FDD5A00EB5707 /* Instructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instructor.cpp; sourceTree = "<group>"; };
+		5C80DA80226FDD5A00EB5707 /* Instructor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Instructor.hpp; sourceTree = "<group>"; };
+		5C80DA83226FDD9E00EB5707 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		5C80DA84226FDD9E00EB5707 /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		5C80DA86226FDE6700EB5707 /* inputValidation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = inputValidation.hpp; sourceTree = "<group>"; };
+		5C80DA87226FDE6700EB5707 /* inputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inputValidation.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,20 @@
 		5C80DA68226FDC6800EB5707 /* OSU Information System */ = {
 			isa = PBXGroup;
 			children = (
+				5C80DA77226FDD0A00EB5707 /* Building.hpp */,
+				5C80DA76226FDD0A00EB5707 /* Building.cpp */,
+				5C80DA7A226FDD1A00EB5707 /* Person.hpp */,
+				5C80DA79226FDD1A00EB5707 /* Person.cpp */,
+				5C80DA80226FDD5A00EB5707 /* Instructor.hpp */,
+				5C80DA7F226FDD5A00EB5707 /* Instructor.cpp */,
+				5C80DA7D226FDD3D00EB5707 /* Student.hpp */,
+				5C80DA7C226FDD3D00EB5707 /* Student.cpp */,
+				5C80DA74226FDCFE00EB5707 /* University.hpp */,
+				5C80DA73226FDCFE00EB5707 /* University.cpp */,
+				5C80DA84226FDD9E00EB5707 /* Menu.hpp */,
+				5C80DA83226FDD9E00EB5707 /* Menu.cpp */,
+				5C80DA86226FDE6700EB5707 /* inputValidation.hpp */,
+				5C80DA87226FDE6700EB5707 /* inputValidation.cpp */,
 				5C80DA69226FDC6800EB5707 /* main.cpp */,
 			);
 			path = "OSU Information System";
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C80DA78226FDD0A00EB5707 /* Building.cpp in Sources */,
 				5C80DA6A226FDC6800EB5707 /* main.cpp in Sources */,
+				5C80DA81226FDD5A00EB5707 /* Instructor.cpp in Sources */,
+				5C80DA7B226FDD1A00EB5707 /* Person.cpp in Sources */,
+				5C80DA85226FDD9E00EB5707 /* Menu.cpp in Sources */,
+				5C80DA7E226FDD3D00EB5707 /* Student.cpp in Sources */,
+				5C80DA75226FDCFE00EB5707 /* University.cpp in Sources */,
+				5C80DA88226FDE6700EB5707 /* inputValidation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
